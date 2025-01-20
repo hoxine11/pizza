@@ -1,0 +1,157 @@
+.menu-content{
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr;
+    grid-gap: 1rem;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.in-box{
+    padding: 3rem 4rem;
+    height: 45rem;
+    text-align: center;
+    border: .1rem solid var(--clr4);
+    border-radius: 5%;
+    background: #eee;
+}
+
+.in-box img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.price{
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    font-size: 600;
+    color: var(--clr3);
+    text-transform: capitalize;
+}
+
+.in-box .fa-plus-circle{
+    color: var(--clr4);
+}
+
+.in-content h2,
+.in-content p {
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-size: 800;
+    text-transform: capitalize;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --clr1:#f95b11;
+    --clr2:#fff;
+    --clr3:#000;
+    --clr4:#f42f1d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+html{
+    font-size: 65%;
+    background-image: url(./resources/bg1.jpg);
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--clr4);
+}
+
+.btn {
+    margin-top: 3rem;
+    padding: 1.3rem 4rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0rem 2rem 2rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: var(--clr3);
+    box-shadow: 0px .2rem 2rem rgba(255, 85, 94, 0.4);
+    color: #fff;
+    transform: translateY(-1rem);
+}
+
+.btn:active {
+    transform: translateY(-.1rem);
+}
+
+section {
+    padding: 4rem 9%;
+    margin-top: 8rem;
+}
+
+section h3 {
+    font-size: 3rem;
+    color: var(--clr2);
+    text-transform: none;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+section h4 {
+    margin: 0 40rem; 
+    padding: 3.2rem;
+    border-bottom: 5px solid var(--clr4);
+    width: 40%;
+    font-size: 3.5rem;
+    color: var(--clr3);
+    text-transform: uppercase;
+    text-align: center;
+    /* align-items: center; */
+    letter-spacing: .2rem;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    margin-bottom: 30px;
+    color: #000;
+}
+h1 span{
+    color: orangered;
+    margin-left: 15px;
+    font-family: mv boli;
+}
+section h2 {
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--clr3);
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+}
+
+section p {
+    color: var(--clr2);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    word-wrap: normal;
+}
