@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="pizza.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="head">
+        <h1 class="logo">mc'25&nbsp;<i class="fas fa-pizza-slice"></i>&nbsp;</h1>
+        
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#menu">menu</a>
+            <a href="#bookAtable">book a table</a>
+            <a href="#our-team">our team</a>
+            <a href="#reviews">reviews</a>
+            <a href="#foot">contact</a>
+        </nav>
+
+        <div class="side-bar">
+            <i class="fas fa-bars"id="bars"></i>
+            <i class="fas fa-search"id="search"></i>
+        </div>
+    </header>
+
+    <!-- HOME SECTION START -->
+    <section class="home_section" id="home">
+        <!-- <div class="navbar">
+            <div class="logo">
+                <p>Urban food</p>
+            </div>
+            <div class="nav_links">
+                <div class="links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#service">Services</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="user_details">
+                    <ion-icon name="people"></ion-icon>
+                    <ion-icon name="cart"></ion-icon>
+                    <ion-icon name="search"></ion-icon>
+                    
+                </div>
+            </div>
+        </div> -->
+        <div class="home_container">
+            <h3 class="heading">welcome to MC'25</h3>
+            <p class="para">Discover the perfect harmony of flavors at our restaurant, where pizza and burgers reign supreme. We specialize in crafting mouthwatering pizzas and juicy burgers that will leave you craving for more. From classic favorites to unique and innovative creations, our menu offers a tantalizing array of options to satisfy your taste buds.</p>
+            <a href="#menu" class="callTo_action btn">check the menu</a>
+        </div>
+    </section>
+
+    <section class="order_cards" id="service">
+        <div class="card">
+            <div class="img">
+                <img src="./resources/o1.jpg" alt="">
+            </div>
+            <div class="order_details">
+                <p class="heading">cheese burger</p>
+                <p class="price"><span>20%</span> Off</p>
+                <a href="#" class="order_now btn">Order Now
+                    <ion-icon name="cart"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="./resources/o2.jpg" alt="">
+            </div>
+            <div class="order_details">
+                <p class="heading">margherita pizza</p>
+                <p class="price"><span>15%</span> Off</p>
+                <a href="#" class="order_now btn">Order Now
+                    <ion-icon name="cart"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- HOME SECTION END -->
+
+<!------------ menu section start -------------->
+    <!-- <section class="menu" id="menu">
+        <h1>our <span>menu</span></h1>
+        <div class="border"></div>
+        <h4>pizzas</h4>
+        <div class="border"></div>
+        <div class="menu-content"> 
+            <div class="in-box">
+                <img src="./resources/pizza(1).png" alt="">
+                <div class="star">
+                    <h2>margherita pizza</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/pizza(1).png" alt="">
+                <div class="star">
+                    <h2>margherita pizza</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/pizza(1).png" alt="">
+                <div class="star">
+                    <h2>margherita pizza</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/pizza(1).png" alt="">
+                <div class="star">
+                    <h2>margherita pizza</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/pizza(1).png" alt="">
+                <div class="star">
+                    <h2>margherita pizza</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/pizza(1).png" alt="">
+                <div class="star">
+                    <h2>margherita pizza</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+        </div>
+        <h4>burgers</h4>
+        <div class="border"></div>
+        <div class="menu-content"> 
+            <div class="in-box">
+                <img src="./resources/burger(1).png" alt="">
+                <div class="star">
+                    <h2>cheese burger</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/chickenBurger.png" alt="">
+                <div class="star">
+                    <h2>chicken burger</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/shawarmaTaco.png" alt="">
+                <div class="star">
+                    <h2>shawarma taco</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/meatTaco.png" alt="">
+                <div class="star">
+                    <h2>meat taco</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/burger(1).png" alt="">
+                <div class="star">
+                    <h2>cheese burger</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/burger(1).png" alt="">
+                <div class="star">
+                    <h2>cheese burger</h2>
+                    <div class="price">900 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+        </div>
+        <h4>drinks and desserts</h4>
+        <div class="border"></div>
+        <div class="menu-content"> 
+            <div class="in-box">
+                <img src="./resources/soda (1).png" alt="">
+                <div class="star">
+                    <h2>soda</h2>
+                    <div class="price">150 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/lemonJuce.png" alt="">
+                <div class="star">
+                    <h2>lemon juice</h2>
+                    <div class="price">300 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/orangeJuce.png" alt="">
+                <div class="star">
+                    <h2>orange juice</h2>
+                    <div class="price">300 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/chocolatCake.png" alt="">
+                <div class="star">
+                    <h2>chocolate cake</h2>
+                    <div class="price">400 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/strawberryCake.png" alt="">
+                <div class="star">
+                    <h2>strawberry cake</h2>
+                    <div class="price">400 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./resources/fruitSalade.png" alt="">
+                <div class="star">
+                    <h2>chocolate ice cream</h2>
+                    <div class="price">500 DA</div>
+                    <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="menu" id="menu">
+        <h1>our <span>menu</span></h1>
+        <div class="border"></div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <h4>pizzas</h4>
+            <div class="border"></div>
+            <div class="menu-content"> 
+                <div class="in-box">
+                    <img src="./resources/pizza(1).png" alt="">
+                    <div class="star">
+                        <h2>margherita pizza</h2>
+                        <div class="price">900 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/f1.png" alt="">
+                    <div class="star">
+                        <h2>shrimp pizza</h2>
+                        <div class="price">1200 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/f3.png" alt="">
+                    <div class="star">
+                        <h2>vegetarien pizza</h2>
+                        <div class="price">950 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/f6.png" alt="">
+                    <div class="star">
+                        <h2>4 seasons pizza</h2>
+                        <div class="price">1000 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/f13 (1).png" alt="">
+                    <div class="star">
+                        <h2>peperoni pizza</h2>
+                        <div class="price">1100 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/f13 (2).png" alt="">
+                    <div class="star">
+                        <h2>mashrooms pizza</h2>
+                        <div class="price">1100 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+            </div>
+                </div>
+    
+                <div class="swiper-slide">
+                <h4>burgers</h4>
+            <div class="border"></div>
+            <div class="menu-content"> 
+                <div class="in-box">
+                    <img src="./resources/f16.png" alt="">
+                    <div class="star">
+                        <h2>cheese burger</h2>
+                        <div class="price">900 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/chickenBurger.png" alt="">
+                    <div class="star">
+                        <h2>chicken burger</h2>
+                        <div class="price">900 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/shawarmaTaco.png" alt="">
+                    <div class="star">
+                        <h2>shawarma taco</h2>
+                        <div class="price">900 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/meatTaco.png" alt="">
+                    <div class="star">
+                        <h2>kebab taco</h2>
+                        <div class="price">900 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/f14 (1).png" alt="">
+                    <div class="star">
+                        <h2>three patty burger</h2>
+                        <div class="price">1000 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+                <div class="in-box">
+                    <img src="./resources/burger(1).png" alt="">
+                    <div class="star">
+                        <h2>cheese burger</h2>
+                        <div class="price">900 DA</div>
+                        <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                    </div>
+                </div>
+            </div>
+                </div>
+    
+                <div class="swiper-slide">
+                <h4>drinks and desserts</h4>
+                <div class="border"></div>
+                <div class="menu-content"> 
+                    <div class="in-box">
+                        <img src="./resources/soda (1).png" alt="">
+                        <div class="star">
+                            <h2>soda</h2>
+                            <div class="price">150 DA</div>
+                            <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="in-box">
+                        <img src="./resources/lemonJuce.png" alt="">
+                        <div class="star">
+                            <h2>lemon juice</h2>
+                            <div class="price">300 DA</div>
+                            <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="in-box">
+                        <img src="./resources/orangeJuce.png" alt="">
+                        <div class="star">
+                            <h2>orange juice</h2>
+                            <div class="price">300 DA</div>
+                            <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="in-box">
+                        <img src="./resources/chocolatCake.png" alt="">
+                        <div class="star">
+                            <h2>chocolate cake</h2>
+                            <div class="price">400 DA</div>
+                            <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="in-box">
+                        <img src="./resources/strawberryCake.png" alt="">
+                        <div class="star">
+                            <h2>strawberry cake</h2>
+                            <div class="price">400 DA</div>
+                            <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="in-box">
+                        <img src="./resources/fruitSalade.png" alt="">
+                        <div class="star">
+                            <h2>chocolate ice cream</h2>
+                            <div class="price">500 DA</div>
+                            <button class="btn">Order<i class="fas fa-plus circle"></i></button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+        
+    
+    </section>
+<!------------ menu section end -------------->
+
+
+<!-- booking form start -->
+<section class="book" id="bookAtable">
+    <h1>book a <span>table</span></h1>
+    <div class="booking-container">
+        <div class="container-time">
+            <h2 class="heading">time open</h2>
+            <h3 class="heading-days">saturday-wednesday</h3>
+            <p>10am - 4pm (breakfast)</p>
+            <p>8am - 1am (lunch)</p>
+
+            
+            <h3 class="heading-days">tuesday-Friday</h3>
+            <p>10am - 4pm (breakfast)</p>
+            <p>8am - 4am (lunch + party)</p>
+
+            <hr>
+            <p class="heading-phone">call us: 07-98-53-82-03</p>
+        </div>
+
+        <div class="container-form">
+            <form action="#" class="">
+                <h2 class="heading heading-yellow">reservation online</h2>
+
+                <div class="form-field">
+                    <p>your name:</p>
+                    <input type="text" placeholder="your name">
+                </div>
+
+                <div class="form-field">
+                    <p>your phone:</p>
+                    <input type="number" placeholder="your phone">
+                </div>
+
+                <div class="form-field">
+                    <p>your e-mail:</p>
+                    <input type="email" placeholder="your e-mail">
+                </div>
+
+                <div class="form-field">
+                    <p>date:</p>
+                    <input type="date">
+                </div>
+
+                <div class="form-field">
+                    <p>time:</p>
+                    <input type="time">
+                </div>
+
+                <div class="form-field">
+                    <p>how many people:</p>
+                    <select name="select" id="#">
+                        <option value="1">1 person</option>
+                        <option value="2">2 persons</option>
+                        <option value="3">3 persons</option>
+                        <option value="4">4 persons</option>
+                        <option value="5">5 persons</option>
+                        <option value="6">6 persons</option>
+                    </select>
+                </div>
+
+                <button class="btn">sumbit</button>
+                
+            </form>
+        </div>
+    </div>
+</section>
+<!-- booking form end -->
+
+
+<!-- team section start -->
+<section class="our-team" id="our-team"></section>
+<div class="team" id="team">
+        <h1>Our<span>Team</span></h1> 
+
+        <div class="team_box">
+            <div class="profile">
+                <img src="./resources/chef1.jpg">
+
+                <div class="info">
+                    <h2 class="name">Chef chaherazed</h2>
+                    <p class="bio">Chef cuisinier
+                        Cuisine
+                        Celebrity TV chef , Brand ambassadeur </p>
+
+                    <div class="team_icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="./resources/chef2.jpg">
+
+                <div class="info">
+                    <h2 class="name">Chef fares djidi</h2>
+                    <p class="bio"> فارس جيدي
+                        Chef cuisinier
+                        Chef cuisinier et influenceur culinaire</p>
+
+                    <div class="team_icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="./resources/chef3.jpg">
+
+                <div class="info">
+                    <h2 class="name" >Chef Abd el kader abas  </h2>
+                    <p class="bio">Chef cuisinier et influenceur culinaire
+                        Cuisine Celebrity TV chef   </p>
+
+                    <div class="team_icon">
+                        
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="./resources/chef4.png">
+
+                <div class="info">
+                    <h2 class="name">Chef Rym </h2>
+                    <p class="bio">  Animatrice (فن الطبخ مع ريم )
+                        Chef culinaire 👩🏼‍🍳
+                    
+                        Atelier culinaire & conseils 👩‍🎓</p>
+
+                    <div class="team_icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- team section end -->
+
+<!-- testimonials section start-->
+<section class="testimonials-container" id="reviews">
+    <div class="testimonials">
+        <div class="inner">
+            <h1><span>reviews</span></h1>
+            <div class="border"></div>
+            <div class="row">
+                <!-- <div class="col">
+                    <div class="testimonial">
+                        <img src="./resources/p1.png" alt="">
+                        <div class="name">jhon stones</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                            <p>Had a fantastic experience at mc'25 restaurant warm atmosphere, varied menu, delicious food. Highly recommend!</p>
+                    </div>
+                </div> -->
+                <div class="col">
+                    <div class="testimonial">
+                    <img src="./resources/c2.png" alt="">
+                        <div class="name">olivier giroud</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div
+                        <p>
+                            mc'25 restaurant was a great find, the ambiance was intimate, with warm lighting and comfortable seating. The menu had a good variety of options. I would highly recommend mc'25 restaurant for a special night out or for anyone looking for great service.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonial">
+                    <img src="./resources/c4.png" alt="">
+                        <div class="name">anna armestrong</div>    
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div
+                        <p>
+                            mc'25 restaurant was a great find, the ambiance was intimate, with warm lighting and comfortable seating. The menu had a good variety of options. I would highly recommend mc'25 restaurant for a special night out or for anyone looking for great service.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonial">
+                    <img src="./resources/c3.png" alt="">
+                        <div class="name">taylor march</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div
+                        <p>
+                            I recently had the pleasure of dining at mc'25 restaurant and I was impressed by the impeccable service and elegant atmosphere. The decor was stylish and modern, with comfortable seating and tasteful lighting.
+                        </p>
+                    </div>
+                </div
+            </div>
+        </div>
+    </div>
+</section>
+<!-- testimonials section end-->
+
+<!-- footer start  -->
+<section class="foot"id="foot">
+    <footer>
+        <div class="content">
+            <div class="left box">
+                <div class="upper">
+                    <div class="topic">About us</div>
+                    <p>our restaurant is a great destination for food lovers,we offer a varied menu that includes delicious pizzas, burgers, and desserts, catering to different tastes and dietary preferences. </p>
+                </div>
+                <!-- <div class="lower">
+                    <div class="topic">Contact us</div>
+                    <div class="phone">
+                    <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+                    </div>
+                    <div class="email">
+                    <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="middle box">
+                <div class="lower">
+                    <div class="topic">adress</div>
+                    <div class="phone">
+                    <a href="#"><i class="fas fa-phone-volume"></i>07-98-53-82-03</a>
+                    </div>
+                    <div class="email">
+                    <a href="#"><i class="fas fa-envelope"></i>nabilbassaid2002@gmail.com</a>
+                    </div>
+                    <div class="media-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="topic">Our Services</div>
+                <div><a href="#menu">MENU</a></div>
+                <div><a href="#">Web UX Design, Reasearch</a></div>
+                <div><a href="#">Web User Interface Design</a></div>
+                <div><a href="#">Theme Development, Design</a></div>
+                <div><a href="#">Mobile Application Design</a></div>
+                <div><a href="#">Wire raming & Prototyping</a></div> -->
+            </div>
+            <div class="right box">
+                <div class="topic">contact us
+                    <p>e-mail *</p>
+                </div>
+                <form action="#">
+                <input type="text" placeholder="Enter email address">
+                <!-- <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div> -->
+                <div class="msg">
+                    <p>message *</p>
+                    <textarea cols="25" rows="2"required></textarea>
+                </div>
+                <input type="submit" name="" value="Send">
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Copyright © 2023 <a href="#">nabil ilyes mamoun achraf</a> All rights reserved</p>
+        </div>
+    </footer>
+</section>    
+<!-- footer end -->
+</body>
+
+
+<!---------------- java script ------------->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    let searchbtn = document.querySelector('#search');
+    let searchfrm = document.querySelector('.head .search-bar');
+
+    searchbtn.onclick = () => {
+        searchfrm.classList.toggle('active');
+        menu.classList.remove('active');
+    }
+
+    let menu = document.querySelector('.head .navbar');
+    document.querySelector('#bars').onclick = () => {
+        menu.classList.toggle('active');
+        searchfrm.classList.remove('active');
+
+    }
+    window.onscroll = () => {
+        menu.classList.remove('active');
+        searchfrm.classList.remove('active');
+    }
+
+    const swiper = new Swiper('.swiper', {
+    loop: true,
+
+  // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+  // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+
+});
+</script>
+</html>
